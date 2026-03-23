@@ -1,6 +1,6 @@
 # 𝖁𝖊𝖘𝖕𝖊𝖗
 
-> _Effects Pedals controller for the M5Stack Cardputer. Quantized and rhythmic interface for MIDI control._
+> _Effects Pedals controller for M5Stack Cardputer. Quantized and rhythmic interface for MIDI control._
 
 ![Under Development](https://img.shields.io/badge/Status-Under%20Development-orange)
 ![Architecture](https://img.shields.io/badge/Architecture-ESP32--S3-black?labelColor=606060&style=flat-square)
