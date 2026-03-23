@@ -1,11 +1,11 @@
-# 𝖁𝖊𝖘𝖕𝖊𝖗
+# 𝐕𝐞𝐬𝐩𝐞𝐫
 
 > _Effects Pedals controller for M5Stack Cardputer. Quantized and rhythmic interface for MIDI control._
 
 ![Under Development](https://img.shields.io/badge/Status-Under%20Development-orange)
 ![Architecture](https://img.shields.io/badge/Architecture-ESP32--S3-black?labelColor=606060&style=flat-square)
 ![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=abletonlive&logoColor=white)
-![Format](https://img.shields.io/badge/Format-Binary-00CED1?style=flat-square)
+![Format](https://img.shields.io/badge/Format-Firmware-00CED1?style=flat-square)
 ![Hardware](https://img.shields.io/badge/Hardware-M5Stack%20Cardputer-white?style=flat-square&logo=espressif&logoColor=red)
 
 ---
@@ -32,9 +32,9 @@
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ### 𝟏. 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐒𝐞𝐭𝐮𝐩
-1. Open Arduino IDE and install the **ESP32** board manager.
-2. Select **ESP32-S3 Dev Module** (or M5Stack Cardputer).
-3. Install the following libraries via the Library Manager:
+1. Open `Arduino IDE` and install the `ESP32 board manager`.
+2. Select `ESP32-S3 Dev Module` (or M5Stack Cardputer).
+3. Install the following libraries via the `Library Manager`:
    - `M5Cardputer`
    - `AbletonLink`
    - `USB`
@@ -49,15 +49,15 @@
 
 ### 𝟑. 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭
 1. Connect the `Cardputer` via USB-C.
-2. Compile and Upload the sketch.
-3. Once the teal interface appears, `Vesper` is ready to sync.
+2. Compile and Upload the firmware.
+3. Turn on your device. Once the menu appears. The `Cardputer` is ready to sync.
 
 ---
 
 ## 𝐒𝐲𝐧𝐜 & 𝐑𝐨𝐮𝐭𝐢𝐧𝐠
 
 ### 𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝐋𝐢𝐧𝐤 𝐒𝐲𝐧𝐜
-Ensure the Cardputer and your computer are on the same Wi-Fi network. Enable **Link** in `Ableton Live`'s top-left corner. `Vesper` will automatically detect the session and synchronize its internal phase bar to the project BPM.
+Ensure the `Cardputer` and your computer are on the same Wi-Fi network. Enable `Link` in `Ableton Live`'s top-left corner. `Vesper` will automatically detect the session and synchronize its internal phase bar to the project BPM.
 
 ### 𝐌𝐈𝐃𝐈 𝐇𝐮𝐛 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰
 1. **Routing**: Create a MIDI track in your DAW for each hardware pedal.
@@ -79,14 +79,14 @@ Ensure the Cardputer and your computer are on the same Wi-Fi network. Enable **L
 
 ### 𝐎𝐧-𝐒𝐜𝐫𝐞𝐞𝐧 𝐏𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫𝐬
 
-- **Mode Indicator**: Displays **[Q]** for Quantized or **[I]** for Instant mode.
-- **BPM**: Real-time tempo readout from the Link session.
+- **Mode Indicator**: Displays `[Q]` for Quantized or `[I]` for Instant mode.
+- **BPM**: Real-time tempo readout from the `Link` session.
 - **Active Pedal**: Shows the name and MIDI value of the currently selected device.
 - **Phase Bar**: A 4-beat visual progress bar indicating the current bar's position.
 
 ---
 
-_This firmware is free. Don't forget to give it a ⭐ on Github if you find it useful for your performance._
+_This firmware is free. Don't forget to give it a ⭐ on Github if you the project._
 
 ---
 
